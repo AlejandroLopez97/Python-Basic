@@ -1,0 +1,26 @@
+Escribe un programa en Python que dada una criptomoneda, la cantidad acumulada y su correspondiente cotización 
+por dólar del día, le permita al usuario conocer la fecha completa y hora del momento en que obtuvo el sistema 
+esa información, así como el monto en US$ que tiene el usuario en su billetera digital. Considerando un crecimiento 
+del 5% por día, muéstrale al usuario para ese mismo día de la siguiente semana cuál sería su ganancia en US$
+
+SOLUCION
+
+from datetime import datetime
+cripto=input("Nombre de la Criptomoneda: ")
+cantidad_cripto=float(input("Cantidad acumulada de la Criptomoneda: "))
+cotizacion=float(input("Cotización por US$ del día de la Criptomoneda: "))
+
+ahora = datetime.now()
+print(“La fecha completa y hora en la que obtuvo la información fue:“+str(ahora))
+total= cantidad_cripto * cotizacion
+print("Usted posee un total de US$ "+str(valorTotal))
+valor1=Total*1.05
+valor2=valor1*1.05
+valor3=valor2*1.05
+valor4=valor3*1.05
+valor5=valor4*1.05
+valor6=valor5*1.05
+valor7=valor6*1.05
+
+ganancia= valor7-total
+print(“Su ganancia luego de una semana es: “+str(ganancia)+“ USD”)

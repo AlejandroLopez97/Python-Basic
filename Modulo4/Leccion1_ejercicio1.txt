@@ -1,0 +1,16 @@
+texto cripto[5]
+real cant[5], cot[5]
+entero i=0
+
+mientras i<5 haga   
+cripto[i]=leer(“Ingrese el nombre de la criptomoneda: ”)
+cant[i]=real(leer(“Ingrese la cantidad: ”)   
+cot[i]=real(leer(“Ingrese la cotización en USD: ”)   
+i=i+1
+fin mientras
+
+i=0
+mientras i<5 haga    
+imprimir(“Criptomoneda: “+cripto[i]+”, cantidad: “+cant[i]+”, precio en USD: “+cot[i])    
+i=i+1
+fin mientras

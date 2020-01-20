@@ -1,0 +1,12 @@
+
+funcion ConvertirCriptomoneda (Cant_bitc, Cant_ripp: real): real
+
+	var totalusd, bitc_usd, ripp_usd: real
+	bitc_usd=7442.50
+	ripp_usd=0.660982
+	totalusd = (Cant_bitc * bitc_usd) + (Cant_ripp * ripp_usd)
+	retorna totalusd
+
+fin funcion
+
+

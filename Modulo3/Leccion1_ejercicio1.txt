@@ -1,0 +1,19 @@
+Escribe un programa en pseudocódigo que dadas dos criptomonedas y sus respectivas cantidades, 
+imprima de forma ordenada decreciente cada moneda con sus respectivos valores.
+
+Texto Cripto1, Cripto2
+Real Cant_cripto1, Cant_cripto2
+
+Cripto1 = leer ("Ingrese el nombre de la primer Criptomoneda")
+Cant_cripto1 = real(leer("Ingrese la cantidad de la primer criptomoneda"))
+Cripto2 = leer ("Ingrese el nombre de la segunda Criptomoneda")
+Cant_cripto2 = real(leer("Ingrese la cantidad de la segunda criptomoneda"))
+
+si (Cant_cripto1 > Cant_cripto2) entonces 
+
+imprima ( " Usted posee las criptomonedas: " + Cripto1 + " con una cantidad de: " + texto(Cant_cripto1) + " y de: " +
+Cripto2 + "una cantidad de: " + texto(Cant_cripto2))
+
+sino
+imprima ( " Usted posee las criptomonedas: " + Cripto2 + " con una cantidad de: " + texto(Cant_cripto2) + " y de: " +
+Cripto1 + "una cantidad de: " + texto(Cant_cripto1))

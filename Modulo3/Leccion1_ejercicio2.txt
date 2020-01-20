@@ -1,0 +1,23 @@
+En tal sentido, te solicitamos que escribas un programa en pseudocódigo que reciba cinco criptomonedas, 
+cada una con sus respectivas cantidades y precios en dólares americanos (USD), y luego imprima el valor total 
+en USD que tienes acumulado.
+
+Texto Cripto,
+Real Cant_cripto, cot, valor
+Entero i
+
+i=0
+valor=0.0
+
+Mientras i<=5 haga
+
+Cripto = leer ("Ingrese el nombre de la Criptomoneda")
+Cant_cripto = real(leer("Ingrese la cantidad de la criptomoneda"))
+cot = real(leer("Ingrese la cotizacion en US$ de la criptomoneda"))
+valor = valor + (Cant_cripto*cot)
+i = i+1
+
+fin mientras 
+
+imprima (" Usted posee: " + texto(valor) + "dolares")
+

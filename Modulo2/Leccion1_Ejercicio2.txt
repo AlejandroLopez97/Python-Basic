@@ -1,0 +1,21 @@
+En esta oportunidad escribe un algoritmo en pseudocódigo que le permita al usuario conocer el monto en dólares
+ americanos que tiene acumulado en su wallet o billetera digital correspondiente a dos criptomoneda particular.
+ En tal sentido, el algoritmo debe leer el nombre de las criptomoneda, la cantidad acumulada en la billetera de 
+cada criptomoneda y su cotización por US$ del momento. Luego, debe calcular el monto total en US$ que posee el 
+usuario e imprimir el siguiente mensaje: “Ud. posee un total de US$” seguido del resultado del cálculo realizado.
+
+SOLUCION
+
+Texto NombreCript1, NombreCript2
+Real CantidadCript1, ValorxUndCript1, TotalUSD, CantidadCript2, ValorxUndCript2
+
+NombreCript1 = Leer ("Ingrese nombre de la primer Criptomoneda")
+NombreCript2 = Leer ("Ingrese nombre de la segunda Criptomoneda")
+CantidadCript1 = float (Leer("Ingrese la cantidad que posee de la primer criptomonedas"))
+CantidadCript2 = float (Leer("Ingrese la cantidad que posee de la segunda criptomonedas"))
+ValorxUndCript1 = float (Leer("Ingrese la cotización en USD$ por la primer criptomoneda"))
+ValorxUndCript2 = float (Leer("Ingrese la cotización en USD$ por la segunda criptomoneda"))
+
+TotalUSD = (CantidadCript1 * ValorxUndCript1) + (CantidadCript2 * ValorxUndCript2)
+
+Imprimie ("Usted posee un total de USD$" + ConvertirTexto(TotalUSD))

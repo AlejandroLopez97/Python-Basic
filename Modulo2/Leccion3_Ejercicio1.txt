@@ -1,0 +1,17 @@
+Te proponemos escribir un programa en Python que nos permita calcular la ganancia de una criptomoneda (Nombre y Cantidad),
+si ésta se negocia por una cantidad de días indicada por el usuario y a una ganancia fija indicada también por el usuario. 
+Al terminar, el programa debe indicar la ganancia en cantidad de criptomoneda, la cantidad de días negociados y el monto
+total al finalizar los días.
+
+SOLUCION
+
+criptomoneda = input("Escibe el nombre de la moneda: ")
+cantidad = float(input("Indique la cantidad de la moneda que posee: "))
+dias = int(input("Indique la cantidad de días en los que negociará la moneda: "))
+ganancia = float(input("Indique el porcentaje de ganancia esperada por día negociado:"))
+
+gananciatotal = (cantidad*ganancia/100)*dias
+totalcant = cantidad + gananciatotal
+
+print("La ganancia de",criptomoneda,"durante los ",str(dias),"es",str(gananciatotal))print("El monto total de",
+criptomoneda,"a los",str(dias),"es de",str(totalcant))

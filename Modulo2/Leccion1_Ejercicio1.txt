@@ -1,0 +1,18 @@
+Escribe un algoritmo en pseudocódigo que le permita al usuario conocer el monto en dólares americanos 
+que tiene acumulado en su wallet o billetera digital correspondiente a una criptomoneda particular. 
+En tal sentido, el algoritmo debe leer el nombre de la criptomoneda, la cantidad acumulada de esa criptomoneda 
+y su cotización por US$ del momento. Luego, debe calcular el monto total en US$ que posee el usuario e imprimir
+ el siguiente mensaje: “Ud. posee un total de US$” seguido del cálculo realizado.
+
+SOLUCION
+
+Texto Nombre
+Real Cantidad, ValorxUnd, TotalUSD
+
+Nombre = Leer ("Ingrese nombre de la Criptomoneda")
+Cantidad = float (Leer("Ingrese la cantidad que posee de criptomonedas"))
+ValorxUnd = float (Leer("Ingrese la cotización en USD$ por criptomoneda"))
+
+TotalUSD = Cantidad * ValorxUnd
+
+Imprimie ("Usted posee un total de USD$" + ConvertirTexto(TotalUSD))
